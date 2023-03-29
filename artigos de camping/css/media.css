@@ -1,6 +1,24 @@
+@media screen and (max-width: 1075px) {
+
+
+    .ad{
+
+        top: 800px;
+        right: 20px;
+        width: 240px;
+        height: 200px;
+
+    }
+    
+}
+
+
+
+
 @media screen and (max-width: 760px) {
     
     header{
+        /* border: solid red 2px; */
         display: flex;
         flex-direction: column;
 
@@ -14,7 +32,9 @@
     }
 
     .img-1{
-
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
         width: 100px;
         align-self: center;
 
@@ -29,8 +49,7 @@
     }
 
   .container2 .txt-1{
-
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: flex;
     left: 250px;
 
@@ -40,10 +59,59 @@
         align-self: center;
     }
 
-    .texto{
+    .txt-3{
 
-        border: solid red 2px;
         display: flex;
+        flex-direction: column;
+
+    }
+
+    .container{
+        /* border: solid red 2px; */
+        width: auto;
+        height: auto;
+        display: flex;
+        display: inline-block;
+        margin: auto;
+
+    }
+
+    .txt-3{
+
+        display: flex;
+        text-align: center;
+        width: 30%;
+        margin-left: 155px;
+
+    }
+
+    .img-2{
+
+        align-content: center;
+        margin-left: 45px;
+
+    }
+
+
+    footer {
+
+        bottom: 0;
+        left: 0;
+        height: 90px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ad{
+
+        display: flex;
+        top: 3700px;
+        margin: auto;
+        position: absolute;
 
     }
 

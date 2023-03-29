@@ -9,20 +9,62 @@ body{
 
 }
 
+
+
+.bot{
+  line-height: 6;
+}
+
+
+table{
+
+ align-self: center;
+ width: 100%;
+ text-align: center;
+ 
+}
+
+.buttom1{
+  font-size: 18px;
+  border-radius: 25px;
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: #3cb371;
+  text-align: center;
+  
+}
+
+.buttom1:hover{
+  animation-name: botao;
+  animation-duration: 1.2s;
+}
+
+@keyframes botao{
+  0%{
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.15);
+  }
+}
+
+
 .txt-1{
     
-    display: inline-block;
-    line-height: 30px;
-    margin: 5px;
-    width: 70px;
+  display: inline-block;
+  line-height: 30px;
+  margin: 5px;
+  width: 70px;
 
 }
 
 .img-1{
-
-    height: 100px;
+/* border: solid red 2px; */
+width: 100px;
+height: 100px;
 
 }
+
 
 .img-1 , .txt-1{
     /* border: solid red 2px; */

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap');
+
+
+
+
 body{
 
 
@@ -13,8 +18,13 @@ body{
 .navbar {
     /* border: solid red 2px; */
     overflow: hidden;
-    background-color: #3cb371;
+    background: rgb(35,121,9);
+background: -moz-radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
+background: -webkit-radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
+background: radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#237909",endColorstr="#c7dece",GradientType=1);
     width: auto;
+    font-family: 'Murecho', sans-serif;
 
   }
   
@@ -82,22 +92,30 @@ body{
     display: block;
 }
 
-footer{
+footer {
 
-  text-align: center;
-  background: beige;
-  color: black;
+
   width: 100%;
-  height: 70px;
-  position: absolute;
+  height: 75px;
+  background-color: beige;
+  position: fixed;
   bottom: 0;
-  left: 0;
-  top: 800px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+a{
+
+  text-decoration: none;
 
 }
 
 .txt-4{
-    
+  
+  /* border: solid red 2px; */
   display: inline-block;
   line-height: 30px;
   margin: 5px;
@@ -110,7 +128,7 @@ footer{
 
 }
 
-img , h2{
+.img-1 , .txt-4{
     /* border: solid red 2px; */
     font-size: 20px;
     float: left;
@@ -120,9 +138,9 @@ img , h2{
 
 .container{
 
-
-    border: solid red 2px;
-    height: 100px;
+  display: flex ;
+  width: 900px;
+  font-size: 13px;
 
 }
 
@@ -131,6 +149,7 @@ img , h2{
 /* border: solid red 2px; */
 height: 350px;
 width: 100%;
+border-radius: 15px;
 
 }
 
@@ -173,6 +192,7 @@ width: 150px;
   font-size: 50px;
   color:black;
   height: 80px;
+  font-family: 'Murecho', sans-serif;
 
 }
 
@@ -182,22 +202,13 @@ color: black;
 
 }
 
-.container3 .txt-3{
+.img-2 , .txt-3{
 
-  /* border: solid red 2px; */
-  position: absolute;
-  right: 0px;
-  left: 299px;
-  top:620px;
-  bottom: 10px;
-  color: rgb(0, 0, 0);
-  height: 150px;
-  width: 500px;
-  font-size: 15px;
-  line-height: 20px;
+  display: inline-block;
 
-  
 }
+
+
 
 .img-3{
 
@@ -224,9 +235,53 @@ a{
   position: absolute;
   height: 200px;
   right: 100px;
+  border-radius: 15px;
+  top: 600px;
+  right: 20px;
 
+}
+.produtos-txt{
+  /* border: solid red 2px; */
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Murecho', sans-serif;
+}
+
+.produtos{
+
+ 
+  height: 230px;
+  width: 230px;
 
 }
 
+th{
+
+  display: flex;
+  display: inline;
+  height: 230px;
+  width: 230px;
+  margin: 20px;
+  color: black;
+
+}
+
+
+table{
+
+ align-self: center;
+ width: 100%;
+ text-align: center;
+ font-family: 'Murecho', sans-serif;
+
+}
+
+.equipamentos {
+
+  border: solid red 2px;
+
+
+}
 
 
