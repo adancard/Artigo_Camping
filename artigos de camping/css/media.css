@@ -1,0 +1,50 @@
+@media screen and (max-width: 760px) {
+    
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-1{
+
+        width: 100px;
+        align-self: center;
+
+    }
+
+    .txt-4{
+
+    /* border: solid red 2px; */
+       width: 100%;
+
+
+    }
+
+  .container2 .txt-1{
+
+    border: solid red 2px;
+    display: flex;
+    left: 250px;
+
+  }
+
+    .dropdown {
+        align-self: center;
+    }
+
+    .texto{
+
+        border: solid red 2px;
+        display: flex;
+
+    }
+
+}

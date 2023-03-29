@@ -81,11 +81,13 @@ body{
 
 h2{
     
-    display: inline-block;
-    line-height: 10px;
-    margin: 5px;
+  display: inline-block;
+  line-height: 30px;
+  margin: 5px;
+  width: 70px;
 
 }
+
 img{
 
     height: 100px;
@@ -116,6 +118,7 @@ aside{
     font-size: 56px;
     line-height: 50px;
     color: black;
+    width: 70%;
     
 }
 span{
