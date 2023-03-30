@@ -78,17 +78,22 @@
 
     .txt-3{
 
+        /* border: solid red 2px; */
         display: flex;
         text-align: center;
-        width: 30%;
-        margin-left: 155px;
+        width: 50%;
+        margin: auto;
 
     }
 
     .img-2{
 
+       display: flex;
+        /* border: solid red 2px; */
         align-content: center;
-        margin-left: 45px;
+        margin: auto;
+        width: 50%;
+
 
     }
 
