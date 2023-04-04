@@ -27,7 +27,6 @@
 
     /* border: solid red 2px; */
        width: 100%;
-       text-align: center;
 
     }
 
@@ -71,11 +70,10 @@
 
     table{
 
-        /* border: solid red 2px; */
+        
         display: flex;
         width: 100%;
         overflow-x: auto;
-  
 
     }
 

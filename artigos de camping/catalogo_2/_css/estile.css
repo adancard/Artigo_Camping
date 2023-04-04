@@ -49,7 +49,7 @@ table{
 }
 
 
-.txt-1{
+.txt-4{
     
   display: inline-block;
   line-height: 30px;
@@ -66,7 +66,7 @@ height: 100px;
 }
 
 
-.img-1 , .txt-1{
+.img-1 , .txt-4{
     /* border: solid red 2px; */
     font-size: 20px;
     float: left;

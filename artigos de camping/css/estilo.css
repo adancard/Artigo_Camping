@@ -18,11 +18,7 @@ body{
 .navbar {
     /* border: solid red 2px; */
     overflow: hidden;
-    background: rgb(35,121,9);
-background: -moz-radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
-background: -webkit-radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
-background: radial-gradient(circle, rgba(35,121,9,1) 47%, rgba(199,222,206,1) 98%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#237909",endColorstr="#c7dece",GradientType=1);
+    background-color: #3cb371;
     width: auto;
     font-family: 'Murecho', sans-serif;
 

@@ -84,9 +84,11 @@ h1{
 }
 
 
-.txt-1{
+.txt-4{
     
+  /* border: solid red 2px; */
     display: inline-block;
+    text-align: left;
     line-height: 30px;
     margin: 5px;
     width: 70px;
@@ -100,7 +102,7 @@ h1{
 
 }
 
-.img-1 ,.txt-1{
+.img-1 ,.txt-4{
     /* border: solid red 2px; */
     font-size: 20px;
     float: left;
@@ -168,5 +170,12 @@ table{
 h1{
 
   font-size: 50px;
+
+}
+
+td,th{
+
+  border: solid black 2px;
+  border-radius: 10px;
 
 }

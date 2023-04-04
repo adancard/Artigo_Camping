@@ -1,0 +1,20 @@
+@media screen and (max-width: 760px) {
+
+
+    img{
+
+        height: auto;
+
+    }
+
+    .card{
+        
+        border: solid red 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;   
+        height: 10000000000000000px;
+    }
+    
+}
