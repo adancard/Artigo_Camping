@@ -1,29 +1,4 @@
-@media screen and (max-width: 1075px) {
-
-
-    .ad{
-
-        top: 200px;
-        right: 20px;
-        width: 240px;
-        height: 100px;
-
-    }
-    
-}
-
-
-
-
 @media screen and (max-width: 760px) {
-
-    body{
-
-        /* border: solid red 2px; */
-        margin: 0 auto;
-        height: 2750px;
-
-    }
     
     header{
         /* border: solid red 2px; */
@@ -52,7 +27,6 @@
 
     /* border: solid red 2px; */
        width: 100%;
-
 
     }
 
@@ -94,37 +68,19 @@
 
     }
 
-    .img-2{
+    table{
 
-       display: flex;
-        /* border: solid red 2px; */
-        align-content: center;
-        margin: auto;
-        width: 50%;
-
-
-    }
-
-
-    footer {
-
-        bottom: 0;
-        left: 0;
-        height: 90px;
-        position: fixed;
+        
+        display: flex;
         width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
+        overflow-x: auto;
 
     }
 
-    .ad{
+    td,th{
 
-        display: flex;
-        top: 600px;
-        margin: auto;
-        position: absolute;
+        border: solid black 2px;
+        border-radius: 10px;
 
     }
 

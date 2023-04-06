@@ -1,8 +1,9 @@
-/* @media screen and (max-width :760px){
+@media screen and (max-width :760px){
 
     body{
-    border: solid red 2px;
+    /* border: solid red 2px; */
     display: flex;
+
     
     
     }
@@ -11,11 +12,9 @@
     .card{
      
 
-        border: solid red 2px;
-        width: 70%;
-  
-        
-        
+        /* border: solid red 2px; */
+        flex-direction: column;
+        width: 50%;
     }
 
 
@@ -40,4 +39,4 @@
 
 
     
-} */
+}
