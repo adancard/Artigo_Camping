@@ -1,0 +1,156 @@
+@media screen and (max-width: 1075px) {
+
+
+    .ad{
+
+        top: 200px;
+        right: 20px;
+        width: 240px;
+        height: 100px;
+
+    }
+    
+}
+
+@media screen and (max-width: 760px) {
+
+    body{
+
+        /* border: solid red 2px; */
+        margin: 0 auto;
+        height: 2750px;
+
+    }
+    
+    header{
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-1{
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-self: center;
+
+    }
+
+    .txt-4{
+
+    /* border: solid red 2px; */
+       width: 100%;
+
+
+    }
+
+  .container2 .txt-1{
+    /* border: solid red 2px; */
+    display: flex;
+    left: 250px;
+
+  }
+
+    .dropdown {
+        align-self: center;
+    }
+
+    .txt-3{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container{
+        /* border: solid red 2px; */
+        width: auto;
+        height: auto;
+        display: flex;
+        display: inline-block;
+        margin: auto;
+
+    }
+
+    .txt-3{
+
+        /* border: solid red 2px; */
+        display: flex;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+
+    }
+
+    .img-2{
+
+       display: flex;
+        /* border: solid red 2px; */
+        align-content: center;
+        margin: auto;
+        width: 50%;
+
+
+    }
+
+
+    footer {
+
+        bottom: 0;
+        left: 0;
+        height: 90px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ad{
+
+        display: flex;
+        top: 600px;
+        margin: auto;
+        position: absolute;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    body{
+
+        /* border: solid red 2px; */
+        margin: 0 auto;
+       height: 3220px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 560px) {
+
+
+    body{
+
+        /* border: solid red 2px; */
+        margin: 0 auto;
+        height: 3750px;
+    }
+    
+
+
+}

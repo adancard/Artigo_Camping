@@ -1,0 +1,42 @@
+@media screen and (max-width :760px){
+
+    body{
+    /* border: solid red 2px; */
+    display: flex;
+
+    
+    
+    }
+
+
+    .card{
+     
+
+        /* border: solid red 2px; */
+        flex-direction: column;
+        width: 50%;
+    }
+
+
+    .text{
+
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        /* border: solid red 2px; */
+
+    }
+
+    .profile{
+
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+      
+      
+    }
+
+
+
+    
+}

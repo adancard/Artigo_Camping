@@ -1,0 +1,135 @@
+@media screen and (max-width: 760px) {
+
+
+    
+    header{
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar{
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-1{
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-self: center;
+
+    }
+
+    .txt-4{
+
+    /* border: solid red 2px; */
+       width: 100%;
+
+    }
+
+  .container2 .txt-1{
+    /* border: solid red 2px; */
+    display: flex;
+    left: 250px;
+
+  }
+
+    .dropdown {
+        align-self: center;
+    }
+
+    .txt-3{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container{
+        /* border: solid red 2px; */
+        width: auto;
+        height: auto;
+        display: flex;
+        display: inline-block;
+        margin: auto;
+
+    }
+
+    .txt-3{
+
+        /* border: solid red 2px; */
+        display: flex;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+
+    }
+
+    main{
+
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    article{
+
+        /* border: solid red 2px; */
+        display: flex;
+        flex-direction: column;
+        width: auto;
+
+    }
+
+    aside{
+
+        /* border: solid red 2px; */
+        align-items: center;
+        align-self: center;
+        width: 70%;
+
+    }
+
+    .text{
+        /* border: solid red 2px;  */
+        width: 100%; 
+        text-align: center;
+
+    }
+
+    #txt-5{
+        /* border: solid red 2px;  */
+        text-align: center;
+        width: auto;
+
+    }
+
+    input{
+
+        /* border: solid red 2px; */
+        text-align: center;
+        align-self: center; 
+        width: 90%;
+    
+
+    }
+
+    #img-1{
+
+        /* border: solid red 2px; */
+        display: flex;
+        width: auto;
+
+
+    }
+
+    
+
+
+    
+}
