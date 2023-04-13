@@ -37,6 +37,12 @@
 
   }
 
+  footer{
+
+    height: 60px;
+
+  }
+
     .dropdown {
         align-self: center;
     }
