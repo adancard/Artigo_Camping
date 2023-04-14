@@ -1,9 +1,41 @@
+
+@media screen and (max-width: 1175px) {
+
+
+    body{
+
+        /* border: solid red 2px; */
+        margin: 0 auto;
+        height: 2890px;
+    }
+
+    table{
+
+        display: flex;
+        overflow-x: auto;
+
+    }
+    
+
+
+}
+
+
+
 @media screen and (max-width: 760px) {
     
     header{
         /* border: solid red 2px; */
         display: flex;
         flex-direction: column;
+
+    }
+
+    body{
+
+        /* border: solid red 2px; */
+        margin: 0 auto;
+        height: 3190px;
 
     }
 
